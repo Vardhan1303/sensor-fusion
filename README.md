@@ -26,7 +26,7 @@ Welcome to the **Sensor Fusion Projects** repository! This repository contains t
 
 ## 🗂️ Repository Structure
 
-
+```
 sensor-fusion/
 ├── task1-vehicle-distance-estimation/ # Task 1: Vehicle Distance Estimation
 │ ├── README.md # Task 1 documentation
@@ -39,6 +39,7 @@ sensor-fusion/
 │ ├── data/ # Dataset and related files
 │ └── report.pdf # Task 2 report
 └── README.md # Main repository documentation
+```
 ---
 
 ## 🚀 Getting Started
