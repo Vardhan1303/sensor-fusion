@@ -1,8 +1,7 @@
 # 🖼️ Image Fusion & Classification with Deep Learning 🧠
 
 *A deep learning project for multi-sensor image fusion and shape classification using PyTorch. Achieves **86.5% accuracy** with majority voting fusion!*  
-![Confusion Matrix](https://via.placeholder.com/600x400/009688/ffffff?text=Confusion+Matrix+Visual)  
-*(Example visualization - replace with actual image path)*
+![Confusion Matrix](https://github.com/user-attachments/assets/29dabc38-5174-403d-8f21-c4ba94f9976e)
 
 ---
 
