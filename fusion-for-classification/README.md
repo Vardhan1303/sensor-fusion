@@ -77,91 +77,84 @@ graph TD
 
 ### Training Parameters:
 
-- 📈 **`Optimizer`** : Adam (lr=0.001)
+- 📈 **Optimizer** : Adam (lr=0.001)
 
-⚖️ Loss Function: CrossEntropyLoss
+- ⚖️ **Loss Function**: CrossEntropyLoss
 
-🔄 Epochs: 100
+- 🔄 **Epochs**: 100
 
-📦 Batch Size: 64
+- 📦 **Batch Size**: 64
 
-🎲 Train/Test Split: 80/20
+- 🎲 **Train/Test Split**: 80/20
 
-📊 Results & Performance
-Accuracy Comparison
+## 📊 Results & Performance
+
+### Accuracy Comparison
+
+```
 Model	Test Accuracy
 Sensor 1 CNN	71.5%
 Sensor 2 CNN	65.5%
 Sensor 3 CNN	66.5%
 Fusion	86.5%
-Confusion Matrix (Fusion Model)
-Copy
+```
+
+### Confusion Matrix (Fusion Model)
+```
               Predicted
          ⚪  ⬛  🔺  ⬠
 Actual ⚪ 98  1   1   0
        ⬛  2 95   3   0
        🔺  1  2  96   1
        ⬠  0  1   2  97
-🛠️ Installation & Usage
-Requirements
-bash
-Copy
-pip install -r requirements.txt
-requirements.txt:
+```
 
-Copy
+## 🛠️ Installation & Usage
+
+### Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### requirements.txt:
+
+```
 torch==2.0.1
 torchvision==0.15.2
 numpy==1.24.3
 matplotlib==3.7.1
 scikit-learn==1.3.0
 Pillow==9.5.0
-Training Command
+```
+
+### Training Command
+
+```
 bash
-Copy
 python train.py \
   --dataset_path ./Imagefusion_Dataset \
   --batch_size 64 \
   --epochs 100 \
   --fusion_method average
-Evaluation Command
-bash
-Copy
+```
+
+### Evaluation Command
+
+```bash
 python evaluate.py \
   --model_weights model_fusion.pth \
   --output_dir results/
-📚 References
-LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-Based Learning Applied to Document Recognition
+```
+
+## 📚 References
+
+1. LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-Based Learning Applied to Document Recognition
 Foundational paper on LeNet-5 architecture
 
-Zhang, Y., & Liu, Y. (2014). Multi-Sensor Image Fusion Techniques
+2. Zhang, Y., & Liu, Y. (2014). Multi-Sensor Image Fusion Techniques
 Review of image fusion methodologies
 
-Dietterich, T. G. (2000). Ensemble Methods in Machine Learning
+3. Dietterich, T. G. (2000). Ensemble Methods in Machine Learning
 Theoretical basis for majority voting
-
-📜 License
-markdown
-Copy
-MIT License
-
-Copyright (c) 2023 [Your Name]
-
-Permission is hereby granted... (see full LICENSE file)
-Let's connect!
-LinkedIn
-GitHub
-Twitter
-
-Copy
-
 ---
-
-✨ **Pro Tip**: For best results:
-1. Replace placeholder images with actual visualizations
-2. Update social media links in the footer
-3. Add your project-specific implementation details
-4. Customize the color scheme using hex codes
-5. Add CI/CD badges if applicable
-
-Let me know if you need help customizing any particular section! 🚀
