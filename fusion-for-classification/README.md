@@ -90,24 +90,25 @@ graph TD
 
 ## 📊 Results & Performance
 
-### Accuracy Comparison
+### 📊 Accuracy Comparison Table
 
-```matlab 
-Model	Test Accuracy
-Sensor 1 CNN	71.5%
-Sensor 2 CNN	65.5%
-Sensor 3 CNN	66.5%
-Fusion	86.5%
+```markdown
+| Model        | Test Accuracy | Performance Level |
+|--------------|---------------|-------------------|
+| Sensor 1 CNN | 71.5%         | 🟢 Good           |
+| Sensor 2 CNN | 65.5%         | 🟡 Average        |
+| Sensor 3 CNN | 66.5%         | 🟡 Average        |
+| **Fusion**   | **86.5%**     | 🔥 Excellent      |
 ```
 
 ### Confusion Matrix (Fusion Model)
 ```markdown
-              Predicted
-         ⚪  ⬛  🔺  ⬠
-Actual ⚪ 98  1   1   0
-       ⬛  2 95   3   0
-       🔺  1  2  96   1
-       ⬠  0  1   2  97
+| Actual \ Predicted | ⚪ Circle | ⬛ Square | 🔺 Triangle | ⬠ Pentagon |
+|--------------------|-----------|-----------|-------------|-------------|
+| **⚪ Circle**       | 98        | 1         | 1           | 0           |
+| **⬛ Square**       | 2         | 95        | 3           | 0           |
+| **🔺 Triangle**     | 1         | 2         | 96          | 1           |
+| **⬠ Pentagon**     | 0         | 1         | 2           | 97          |
 ```
 
 ## 🛠️ Installation & Usage
