@@ -85,7 +85,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 2. **Object Detection Model**:
 
-- `YOLOv5` – GitHub Repository
+- `YOLOv5` – https://github.com/ultralytics/yolov5
 
 3. **Sensor Fusion Techniques**:
 
