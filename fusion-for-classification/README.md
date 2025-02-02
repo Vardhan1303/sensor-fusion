@@ -141,4 +141,6 @@ Review of image fusion methodologies
 
 3. Dietterich, T. G. (2000). Ensemble Methods in Machine Learning
 Theoretical basis for majority voting
+
+4. 
 ---
