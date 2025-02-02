@@ -28,25 +28,25 @@ Welcome to the **Sensor Fusion Projects** repository! This repository contains t
 
 ```
 sensor-fusion/
-├── task1-vehicle-distance-estimation/ # Task 1: Vehicle Distance Estimation
-│ ├── README.md # Task 1 documentation
-│ ├── code/ # Code files for Task 1
-│ ├── data/ # Dataset and related files
-│ └── report.pdf # Task 1 report
-├── task2-fusion-for-classification/ # Task 2: Fusion for Classification
-│ ├── README.md # Task 2 documentation
-│ ├── code/ # Code files for Task 2
-│ ├── data/ # Dataset and related files
-│ └── report.pdf # Task 2 report
-└── README.md # Main repository documentation
+├── vehicle-distance-estimation/             # Task 1: Vehicle Distance Estimation
+│ ├── README.md                              # Task 1 documentation
+│ ├── fusion.ipynb                           # Code files for Task 1
+│ └── requirements.txt                       # Dependencies 
+├── fusion-for-classification/               # Task 2: Fusion for Classification
+│ ├── README.md                              # Task 2 documentation
+│ ├── classification.ipynb                   # Code files for Task 2
+│ ├── Imagefusion_dataset/                   # Dataset 
+│ └── requirements.txt                       # Dependencies
+└── README.md                                # Main repository documentation
 ```
 ---
 
 ## 🚀 Getting Started
 
 1. Clone the repository:
-   ### bash
+``` bash
    git clone https://github.com/Vardhan1303/sensor-fusion.git
+```
 
 2. Navigate to the respective task folder for detailed instructions and code.
 
@@ -63,6 +63,10 @@ sensor-fusion/
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
+## 🎓 Academic Context
+
+These projects were developed as part of the **Sensor Fusion** course during the **Master of Sciences in Mechatronics** program at the **University of Applied Sciences Ravensburg-Weingarten**. The work was conducted under the guidance of **Mr. Felix Berens**.
+
 ---
 
-For more details, refer to the individual task folders and their respective `README.md` files. Happy coding! 😄
+⭐ If you like this project, give it a star! 🌟
