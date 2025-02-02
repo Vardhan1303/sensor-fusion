@@ -73,15 +73,11 @@ vehicle-distance-estimation/
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
 ## 📜 References
 
 1. **Dataset**:
 
-- `dataset_astyx_hires2019` – Astyx HiRes2019 Dataset
+- `dataset_astyx_hires2019` – Astyx HiRes2019 Dataset: https://www.astyx.com/fileadmin/redakteur/dokumente/Astyx_Dataset_HiRes2019_specification.pdf
 
 2. **Object Detection Model**:
 
