@@ -128,25 +128,6 @@ scikit-learn==1.3.0
 Pillow==9.5.0
 ```
 
-### Training Command
-
-```
-bash
-python train.py \
-  --dataset_path ./Imagefusion_Dataset \
-  --batch_size 64 \
-  --epochs 100 \
-  --fusion_method average
-```
-
-### Evaluation Command
-
-```bash
-python evaluate.py \
-  --model_weights model_fusion.pth \
-  --output_dir results/
-```
-
 ## 📚 References
 
 1. LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-Based Learning Applied to Document Recognition
