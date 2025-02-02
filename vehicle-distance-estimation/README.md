@@ -17,7 +17,7 @@ This project focuses on estimating the distance of vehicles using sensor fusion 
 
 ## 📂 Dataset
 
-The project uses the `dataset_astyx_hires2019` dataset, with a focus on image `000291` for analysis and evaluation.
+The project uses the `dataset_astyx_hires2019` dataset, with a focus on image `000131` for analysis and evaluation.
 
 ---
 
@@ -34,8 +34,9 @@ The project uses the `dataset_astyx_hires2019` dataset, with a focus on image `0
 
 ```
 vehicle-distance-estimation/
-├── vehicle_detection.py      # YOLOv5 vehicle detection
+├── fusion.py                 # YOLOv5 vehicle detection
 └── README.md                 # Task documentation
+└── requirements.txt          # Dependencies
 ```
 
 ---
@@ -61,7 +62,7 @@ vehicle-distance-estimation/
 4. Run the code:
 
    ``` bash
-   python vehicle_detection.py
+   python fusion.py
     ```
 ---
 
@@ -75,3 +76,23 @@ vehicle-distance-estimation/
 ## 📜 License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## 📜 References
+
+1. Dataset:
+
+- `dataset_astyx_hires2019` – Astyx HiRes2019 Dataset
+
+2. Object Detection Model:
+
+- `YOLOv5` – GitHub Repository
+
+3. Sensor Fusion Techniques:
+
+- R. E. Kalman, "A New Approach to Linear Filtering and Prediction Problems," Transactions of the ASME–Journal of Basic Engineering, 1960.
+
+4. `Python Libraries`:
+
+- **OpenCV**: https://opencv.org
+- **NumPy**: https://numpy.org
+- **SciPy**: https://scipy.org
