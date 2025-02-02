@@ -38,7 +38,7 @@ Imagefusion_Dataset/
 
 - 5000+ synthetic images (sample visualization below)
 
-Sample Images
+![Sample Image](https://github.com/user-attachments/assets/578f4f7c-5c59-4469-910b-5f75e398b109)
 
 ## 🏛️ Model Architecture
 
