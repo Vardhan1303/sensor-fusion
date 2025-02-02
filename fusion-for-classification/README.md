@@ -18,6 +18,7 @@ This repository implements an **intelligent image processing pipeline** that:
 - **LeNet-5 CNN Architecture** with custom modifications
 - **Majority Voting System** for improved accuracy
 - **Comprehensive Evaluation** with confusion matrices
+- 📝 **Jupyter Notebook Support**: The entire pipeline can be visualized and executed in a Jupyter Notebook for better analysis and experimentation.
 
 ---
 
@@ -91,7 +92,7 @@ graph TD
 
 ### Accuracy Comparison
 
-```
+```matlab 
 Model	Test Accuracy
 Sensor 1 CNN	71.5%
 Sensor 2 CNN	65.5%
@@ -100,7 +101,7 @@ Fusion	86.5%
 ```
 
 ### Confusion Matrix (Fusion Model)
-```
+```markdown
               Predicted
          ⚪  ⬛  🔺  ⬠
 Actual ⚪ 98  1   1   0
@@ -119,7 +120,7 @@ pip install -r requirements.txt
 
 ### requirements.txt:
 
-```
+```ini
 torch==2.0.1
 torchvision==0.15.2
 numpy==1.24.3
@@ -127,6 +128,11 @@ matplotlib==3.7.1
 scikit-learn==1.3.0
 Pillow==9.5.0
 ```
+
+## Jupyter Notebook Support
+
+You can **observe, analyze, and run** the training and evaluation pipeline in a Jupyter Notebook for an interactive experience. Simply open the notebook and execute the provided cells for a step-by-step demonstration of image fusion and classification.
+
 
 ## 📚 References
 
