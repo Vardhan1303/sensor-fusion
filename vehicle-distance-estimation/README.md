@@ -79,19 +79,19 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## 📜 References
 
-1. Dataset:
+1. **Dataset**:
 
 - `dataset_astyx_hires2019` – Astyx HiRes2019 Dataset
 
-2. Object Detection Model:
+2. **Object Detection Model**:
 
 - `YOLOv5` – GitHub Repository
 
-3. Sensor Fusion Techniques:
+3. **Sensor Fusion Techniques**:
 
 - R. E. Kalman, "A New Approach to Linear Filtering and Prediction Problems," Transactions of the ASME–Journal of Basic Engineering, 1960.
 
-4. `Python Libraries`:
+4. **Python Libraries**:
 
 - **OpenCV**: https://opencv.org
 - **NumPy**: https://numpy.org
